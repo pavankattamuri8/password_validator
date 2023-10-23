@@ -14,7 +14,7 @@ function myFunction() {
 
     if ( !uppercaseRegex.test(password) || !lowercaseRegex.test(password) || !digitRegex.test(password) || !specialCharRegex.test(password)) {
         valid = false;
-        message = "Password must meet all criteria:one uppercase letter, one lowercase letter, one digit, and one special character.";
+        message = "Password must contains this criteria :one uppercase letter, one lowercase letter, one digit, and one special character.";
     }
 
     if (password.length >= 8) {
